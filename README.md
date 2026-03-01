@@ -1,22 +1,20 @@
-# brain-tumor-detection
-
-🧠 Brain Tumor Detection using YOLO
+# 🧠 Brain Tumor Detection using YOLO
 
 A deep learning project for detecting brain tumors from MRI images using YOLO (You Only Look Once) object detection.
 
-📌 Project Overview
+# 📌 Project Overview
 
 This project trains a custom YOLO model to detect tumor regions in brain MRI scans.
 
-📷 Input: Brain MRI images
+- 📷 Input: Brain MRI images
 
-🎯 Output: Bounding box around tumor
+- 🎯 Output: Bounding box around tumor
 
-🧠 Model: YOLO (Ultralytics)
+- 🧠 Model: YOLO (Ultralytics)
 
-🔍 Task: Object Detection
+- 🔍 Task: Object Detection
 
-🗂 Project Structure
+# 🗂 Project Structure
 ```bash
 brain-tumor-detection/
 │── dataset/
@@ -29,34 +27,18 @@ brain-tumor-detection/
 │── requirements.txt
 │── README.md
 ```
-📊 Dataset
+# 📊 Dataset
 
 Dataset contains annotated brain MRI images in YOLO format.
 
 Each image has a corresponding .txt label file:
-
+```bash
 class_id x_center y_center width height
-
+```
 You can use datasets from:
-
-Kaggle Brain MRI Dataset
-
-Custom annotated dataset
+- Kaggle Brain MRI Dataset
+- Custom annotated dataset
 
 ⚠️ Dataset is not uploaded due to GitHub size limits.
 
-📊 Dataset
 
-Dataset contains annotated brain MRI images in YOLO format.
-
-Each image has a corresponding .txt label file:
-
-class_id x_center y_center width height
-
-You can use datasets from:
-
-Kaggle Brain MRI Dataset
-
-Custom annotated dataset
-
-⚠️ Dataset is not uploaded due to GitHub size limits.
