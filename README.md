@@ -148,8 +148,13 @@ https://your-app-name.onrender.com/docs
 - Input: MRI image
 - Output: Bounding box around tumor
 
+---
 
+## ⚠️ Notes
 
-## ⭐ Support
+- Model weights are stored in `weights/`
+- Large model files may affect deployment performance
+- Recommended Python version: 3.10 or 3.11
 
-If you found this project useful, please give it a ⭐ on GitHub.
+---
+
